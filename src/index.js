@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import Guide from './components/guide';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <Guide />
     </React.StrictMode>,
     document.getElementById('root')
 );
